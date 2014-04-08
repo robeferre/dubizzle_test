@@ -117,6 +117,7 @@ EXERCISE 3B OUTPUT
 EXERCISE 3C OUTPUT
 --------------------
 
+
 	###################################################################################################################
 	# TESTING receive() method
 	# READING contend of /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/mars.json file
@@ -145,36 +146,36 @@ EXERCISE 3C OUTPUT
 	# TESTING send() method
 	# Loading the earth_dict contend from "earth_dict_generator" method
 	###################################################################################################################
-```json
-
-
-	{u'earth': {u'Atmosphere': {u'composition': [u'Nitrogen',
-	                                             u'Oxygen',
-	                                             u'Argon',
-	                                             u'Carbon dioxide'],
-	                            u'pressure': u'1,013 millibars(at sea level)'},
-	            u'Deepest Canyon': u'Grand Canyon',
-	            u'Distance from Sun': u'149,597,891 kilometers',
-	            u'description': u'Describe Earth planet attributes',
-	            u'equatorial_radius': u'6,378 kilometers',
-	            u'gravity': u'2.66 times that of Mars',
-	            u'largest_volcano': u'Mauna Loa (Hawaii)',
-	            u'length_of_Year': u'365 days',
-	            u'length_of_day': u'Just slightly under 24 hours',
-	            u'polar_caps': u'Permanently covered with water ice',
-	            u'surface_temperature': u'57 degrees F (14 degrees C)'}}
-```	            
-	###################################################################################################################
 	# Sending earth_dict to a json file on /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/json_file_created/
 	# FILE SAVED AT: /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/json_file_created/earth.json
 	###################################################################################################################
+```json
+		
+	{"earth": 
+		{
+			"Deepest Canyon": "Grand Canyon", 
+		 	"description": "Describe Earth planet attributes", 
+		 	"length_of_Year": "365 days", 
+		 	"polar_caps": "Permanently covered with water ice", 
+		 	"surface_temperature": "57 degrees F (14 degrees C)", 
+		 	"largest_volcano": "Mauna Loa (Hawaii)", 
+		 	"Atmosphere": {
+		 					"pressure": "1,013 millibars(at sea level)", 
+		 					"composition": ["Nitrogen", "Oxygen", "Argon", "Carbon dioxide"]},
+		    "length_of_day": "Just slightly under 24 hours",
+		    "Distance from Sun": "149,597,891 kilometers",
+		    "equatorial_radius": "6,378 kilometers",
+		    "gravity": "2.66 times that of Mars"
+		 }
+	}		
+		
+```
+	###################################################################################################################
 	# END OF TESTS
 	###################################################################################################################
-
-
-
-
-
+	
+	
+	
 
 
 
