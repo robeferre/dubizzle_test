@@ -68,10 +68,49 @@ EXERCISE 3A OUTPUT
 EXERCISE 3B OUTPUT
 ------------------
 
-	#############################
+	*****************************
+	Random number generated: 7
+	Function returns: 7
+	*****************************
 	Random number generated: 2
 	Function returns: 2
-	#############################
+	*****************************
+	Random number generated: 1
+	Function returns: 1
+	*****************************
+	Random number generated: 1
+	Function returns: 1
+	*****************************
+	Random number generated: 7
+	Function returns: 7
+	*****************************
+	Random number generated: 3
+	Function returns: 3
+	*****************************
+	Random number generated: 3
+	Function returns: 3
+	*****************************
+	Random number generated: 6
+	Function returns: 6
+	*****************************
+	Random number generated: 4
+	Function returns: 4
+	*****************************
+	Random number generated: 2
+	Function returns: 2
+	*****************************
+	Random number generated: 2
+	Function returns: 2
+	*****************************
+	Random number generated: 2
+	Function returns: 2
+	*****************************
+	Random number generated: 4
+	Function returns: 4
+	*****************************
+	Random number generated: 5
+	Function returns: 5
+	*****************************
 
 
 
@@ -106,6 +145,9 @@ EXERCISE 3C OUTPUT
 	# TESTING send() method
 	# Loading the earth_dict contend from "earth_dict_generator" method
 	###################################################################################################################
+```json
+
+
 	{u'earth': {u'Atmosphere': {u'composition': [u'Nitrogen',
 	                                             u'Oxygen',
 	                                             u'Argon',
@@ -121,6 +163,7 @@ EXERCISE 3C OUTPUT
 	            u'length_of_day': u'Just slightly under 24 hours',
 	            u'polar_caps': u'Permanently covered with water ice',
 	            u'surface_temperature': u'57 degrees F (14 degrees C)'}}
+```	            
 	###################################################################################################################
 	# Sending earth_dict to a json file on /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/json_file_created/
 	# FILE SAVED AT: /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/json_file_created/earth.json
