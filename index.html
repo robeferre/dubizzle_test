@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Roberto&#39;s Dubizzle Programming Test Answers. : Dubizzle Test - Programming questions" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Roberto&#39;s Dubizzle Programming Test Answers.</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/robeferre/dubizzle_test">View on GitHub</a>
+
+          <h1 id="project_title">Roberto&#39;s Dubizzle Programming Test Answers.</h1>
+          <h2 id="project_tagline">Dubizzle Test - Programming questions</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/robeferre/dubizzle_test/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/robeferre/dubizzle_test/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Here is some information about my implementation of the programing questions.</p>
+
+<h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p>Roberto Ferreira Junior (<a href="mailto:robeferre@gmail.com">robeferre@gmail.com</a>)</p>
+
+<h2>
+<a name="platform" class="anchor" href="#platform"><span class="octicon octicon-link"></span></a>Platform</h2>
+
+<pre><code>$ cat /etc/redhat-release 
+Red Hat Enterprise Linux Workstation release 6.4 (Santiago)
+</code></pre>
+
+<h2>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<pre><code>- exercise 3a 
+    * hash_ring
+
+- exercise 3b
+    * random
+
+- exercise 3c
+    * os
+    * json
+    * pprint
+</code></pre>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<pre><code>- exercise 3a 
+    * python new__memcached.py
+
+- exercise 3b
+    * python exercice3b.py
+
+- exercise 3c
+    * python exercice3b.py (navigate to exercise3C_Mars folder)
+</code></pre>
+
+<h2>
+<a name="exercise-3a-output" class="anchor" href="#exercise-3a-output"><span class="octicon octicon-link"></span></a>Exercise 3a output</h2>
+
+<pre><code>#######################################################
+-&gt; Here's our 7 servers:
+#######################################################
+# 127.0.0.1:11211 =&gt; Node_Ring_Position:197
+# 127.0.0.1:11212 =&gt; Node_Ring_Position:609
+# 127.0.0.1:11213 =&gt; Node_Ring_Position:379
+# 127.0.0.1:11214 =&gt; Node_Ring_Position:357
+# 127.0.0.1:11215 =&gt; Node_Ring_Position:683
+# 127.0.0.1:11216 =&gt; Node_Ring_Position:127
+# 127.0.0.1:11217 =&gt; Node_Ring_Position:293
+#######################################################
+100.0 percent of keys matched
+#######################################################
+Added new server
+#######################################################
+-&gt; Here's our 11 servers:
+#######################################################
+# 127.0.0.1:11211 =&gt; Node_Ring_Position:197
+# 127.0.0.1:11212 =&gt; Node_Ring_Position:609
+# 127.0.0.1:11213 =&gt; Node_Ring_Position:379
+# 127.0.0.1:11214 =&gt; Node_Ring_Position:357
+# 127.0.0.1:11215 =&gt; Node_Ring_Position:683
+# 127.0.0.1:11216 =&gt; Node_Ring_Position:127
+# 127.0.0.1:11217 =&gt; Node_Ring_Position:293
+# 127.0.0.1:11218 =&gt; Node_Ring_Position:370
+# 127.0.0.1:11219 =&gt; Node_Ring_Position:517
+# 127.0.0.1:11220 =&gt; Node_Ring_Position:737
+# 127.0.0.1:11221 =&gt; Node_Ring_Position:648
+#######################################################
+100.0 percent of keys stil matched
+#######################################################
+</code></pre>
+
+<h2>
+<a name="exercise-3b-output" class="anchor" href="#exercise-3b-output"><span class="octicon octicon-link"></span></a>Exercise 3B output</h2>
+
+<pre><code>*****************************
+Random number generated: 7
+Function returns: 7
+*****************************
+Random number generated: 2
+Function returns: 2
+*****************************
+Random number generated: 1
+Function returns: 1
+*****************************
+Random number generated: 1
+Function returns: 1
+*****************************
+Random number generated: 7
+Function returns: 7
+*****************************
+Random number generated: 3
+Function returns: 3
+*****************************
+Random number generated: 3
+Function returns: 3
+*****************************
+Random number generated: 6
+Function returns: 6
+*****************************
+Random number generated: 4
+Function returns: 4
+*****************************
+Random number generated: 2
+Function returns: 2
+*****************************
+Random number generated: 2
+Function returns: 2
+*****************************
+Random number generated: 2
+Function returns: 2
+*****************************
+Random number generated: 4
+Function returns: 4
+*****************************
+Random number generated: 5
+Function returns: 5
+*****************************
+</code></pre>
+
+<h2>
+<a name="exercise-3c-output" class="anchor" href="#exercise-3c-output"><span class="octicon octicon-link"></span></a>Exercise 3c output</h2>
+
+<pre><code>###################################################################################################################
+# TESTING receive() method
+# READING contend of /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/mars.json file
+###################################################################################################################
+# Contend of /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/mars.json stored in a python dictionary
+# Here's the contend of the python dict.
+###################################################################################################################
+{u'mars': {u'Atmosphere': {u'composition': [u'Carbon dioxide',
+                                            u'Nitrogen',
+                                            u'Argon',
+                                            u'Oxygen',
+                                            u'Water vapor',
+                                            u'Nitric oxide'],
+                           u'pressure': u'7.5 millibars (average)'},
+           u'Deepest Canyon': u'Valles Marineris',
+           u'Distance from Sun': u'227,936,637 kilometers',
+           u'description': u'Describe Mars planet attributes',
+           u'equatorial_radius': u'3,397 kilometers',
+           u'gravity': u'0.375 that of Earth',
+           u'largest_volcano': u'Olympus Mons',
+           u'length_of_Year': u'687 Earth days',
+           u'length_of_day': u'24 hours, 37 minutes',
+           u'polar_caps': u'Covered with a mixture of carbon dioxide ice and water ice',
+           u'surface_temperature': u'-81 degrees F (-63 degrees C)'}}
+###################################################################################################################
+# TESTING send() method
+# Loading the earth_dict contend from "earth_dict_generator" method
+###################################################################################################################
+# Sending earth_dict to a json file on /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/json_file_created/
+# FILE SAVED AT: /home/rfjunior/workspace/dubizzle_test/exercise3C_Mars/json_file_created/earth.json
+###################################################################################################################
+</code></pre>
+
+<div class="highlight highlight-json"><pre>
+    <span class="p">{</span><span class="nt">"earth"</span><span class="p">:</span> 
+        <span class="p">{</span>
+            <span class="nt">"Deepest Canyon"</span><span class="p">:</span> <span class="s2">"Grand Canyon"</span><span class="p">,</span> 
+            <span class="nt">"description"</span><span class="p">:</span> <span class="s2">"Describe Earth planet attributes"</span><span class="p">,</span> 
+            <span class="nt">"length_of_Year"</span><span class="p">:</span> <span class="s2">"365 days"</span><span class="p">,</span> 
+            <span class="nt">"polar_caps"</span><span class="p">:</span> <span class="s2">"Permanently covered with water ice"</span><span class="p">,</span> 
+            <span class="nt">"surface_temperature"</span><span class="p">:</span> <span class="s2">"57 degrees F (14 degrees C)"</span><span class="p">,</span> 
+            <span class="nt">"largest_volcano"</span><span class="p">:</span> <span class="s2">"Mauna Loa (Hawaii)"</span><span class="p">,</span> 
+            <span class="nt">"Atmosphere"</span><span class="p">:</span> <span class="p">{</span>
+                            <span class="nt">"pressure"</span><span class="p">:</span> <span class="s2">"1,013 millibars(at sea level)"</span><span class="p">,</span> 
+                            <span class="nt">"composition"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Nitrogen"</span><span class="p">,</span> <span class="s2">"Oxygen"</span><span class="p">,</span> <span class="s2">"Argon"</span><span class="p">,</span> <span class="s2">"Carbon dioxide"</span><span class="p">]},</span>
+            <span class="nt">"length_of_day"</span><span class="p">:</span> <span class="s2">"Just slightly under 24 hours"</span><span class="p">,</span>
+            <span class="nt">"Distance from Sun"</span><span class="p">:</span> <span class="s2">"149,597,891 kilometers"</span><span class="p">,</span>
+            <span class="nt">"equatorial_radius"</span><span class="p">:</span> <span class="s2">"6,378 kilometers"</span><span class="p">,</span>
+            <span class="nt">"gravity"</span><span class="p">:</span> <span class="s2">"2.66 times that of Mars"</span>
+         <span class="p">}</span>
+    <span class="p">}</span>       
+
+</pre></div>
+
+<pre><code>###################################################################################################################
+# END OF TESTS
+###################################################################################################################
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Roberto&#39;s Dubizzle Programming Test Answers. maintained by <a href="https://github.com/robeferre">robeferre</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
